@@ -120,3 +120,116 @@ def example18():
 result18 = example18()
 print("Result18:",result18)
 
+def example19(n):
+    return n % 2 == 0
+numbers = [1, 2, 3, 4, 5, 6]
+result = filter(example19,numbers)
+print(list(result))
+
+def example20():
+    x = 10 
+    return x 
+print('Result20:',float(10))
+
+def example21():
+    x = "7"
+    return x 
+print('Result 21:',float(10))
+
+def example22():
+    x = 10 
+    return x/2
+print('Result 22:',float(10/2))
+
+def example23():
+    firstname = 'nitesh'
+    lastname = 'khatri'
+    return firstname + " " + lastname 
+fullname = example23()
+print(fullname)
+
+def example24(x, y): 
+    return x *y + 10 
+calculator = example24(30, 50)
+print(calculator)
+
+def example25(a,b):
+    return a * b 
+calculator = example25(20,30)
+print(calculator)
+
+def example26():
+    name = 'nitesh'
+    age = 30
+    return 'My name is {} and my age is {}.'.format(name, age)
+formatted_string = example26()
+print(formatted_string)
+
+def example27():
+    number = 255
+    return hex(number)
+result27=example27()
+print(result27)
+
+def example28():
+    return hex(10)
+result28=example28()
+print(result27)
+
+def example29():
+    a = 10 
+    b = 20
+    print("ID of a inside function:",id(a))
+    return a + b 
+example29()
+
+def example30():
+    a = 10
+    b = 20
+    return a 
+print(example30())
+
+def example31():
+    name = input('enter your name:')
+    return name
+result31 = example31()
+print('hello',result31)
+
+def example32():
+    num = 5.8 
+    return num 
+result32 = example32()
+print(result32)
+
+def example33():
+    s = "123"
+    return s 
+result33 = example33()
+print("result33:",result33)
+
+def example34():
+    my_list = [1, 2, 3]
+    my_iterator = iter(my_list)
+result34 = example34()
+print(result34)
+
+def example35():
+    name = 'nitesh35'
+    return len(name)
+result35 = example35()
+print(result35)
+
+def example36():
+    fruits = ["apple", "banana", "cherry"]
+    return fruits
+result36 = example36()
+print(len(result36))
+
+def example37():
+    person = {"name": "Alice", "age": 30}
+    return person
+result37 = example37()
+print(len(result37))
+
+
+
