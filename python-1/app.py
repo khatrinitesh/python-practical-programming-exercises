@@ -355,3 +355,228 @@
 # print(text[0])
 # print('test')
 
+# x = 5
+# print(type(x))
+
+# x = 'hello world'
+# x = 20
+# x = 20.5
+# x = 1j
+# x = ['apple','watermelon','grape']
+# x = range(6)
+# x = ('apple','watermelon','grape')
+# x = range(6)
+# x = {"name":"nitesh","age":"37"}
+# x = {'apple','banana','cherry'}
+# x = frozenset({'apple','banana','cherry'})
+# x = True
+# x = b"Hello"
+# x = bytearray(5)
+# x = memoryview(bytes(5))
+# x = None
+# x = 1
+# x = 2.8
+# x = 22j
+# x = ['happy','sad','coolest','morning','breakfast']
+# x = {'happy','sad','coolest','morning','breakfast'}
+# x = {'name':'nitesh','age':'34'}
+# x = -3255522
+# x = -5j
+# x = int(1)
+# x = int(2.8)
+# x = int('3')
+# x = float("4.2")
+# x = str(2)
+# x = str(3.0)
+# x = 'hello'
+# x = 'it is alright'
+# x = 'he is called "johnny"'
+# x = 'he is called "johnny"'
+# x = 'hello'
+# x =  """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# x = 'hello world'
+# x = 'hello world'
+# for x in 'apple':
+#     print(x)
+# for example in 'pineapple':
+#     print(example)
+# a = 'hello world'
+# print(len(a))
+# txt = "The best things in life are free!"
+# print('free' in txt)
+# txt = "The best things in life are free!"
+# if "free" in txt:
+#     print("yes, 'free' is present.")
+# txt ='how are you'
+# if "how" in txt: 
+#     print("yes, 'how' is present")
+# txt = "The best things in life are free!"
+# print('wonderful' not in txt)
+# txt = 'how are you feeling'
+# if 'expensive' and 'happy' not in txt: 
+#     print("no,'expensive' & 'happy' is NOT present.")
+# txt = 'what do you want to know'
+# if 'unhappy' and 'happy' not in txt:
+#  print("no, 'unhappy' & 'happy', two words isn't present. ")
+# if('apple' in fruitswise):
+#     print('yes, there is an including "apple"')
+
+# fruitswise1 = ['apple','banana','watermelon']
+# print(fruitswise1[-1])
+
+# teamwise = ['pawan','prathmesh','koushik','nitesh']
+# if 'pawan' not in teamwise or 'prathmesh' not in teamwise:
+#     print("No, 'pawan' and 'prathmesh' aren't present.")
+
+# fruits = ['apple', 'banana', 'cherry']
+# newlist = ['apple' for x in fruits]
+# print(newlist)
+
+# list1 = ['a', 'b' , 'c']
+# list2 = [1, 2, 3]
+# def example():
+#     for x in list2:
+#         list1.append(x)
+#     return list1
+# result = example()
+# print(result)
+
+# print("Content that you wanna print on screen")
+
+# fruits = ('apple', 'banana', 'cherry','mango')
+# (x, b,*y) = fruits
+# print(y)
+
+# for x in ('apple', 'banana', 'cherry'):
+#     print(x)
+
+# a = 50
+# b = 60 
+# if a == b:
+#     print('yes')
+# else:
+#     print('no')
+
+# set1 = {1,2,3,4,5,6}
+# set2 = {2,4,6,8,10}
+# print(set1.difference(set2))
+
+# set2.difference(set1)
+
+# print("It's alright")
+# print("He is called 'Johnny'")
+# print('He is called "Johnny"')
+
+# a = "Hello"
+# print(a)
+
+
+# a = "Hello, World!"
+# print(a[1])
+
+# for x in "banana":
+#   print(x)
+
+# a = "Hello, World!"
+# print(len(a))
+
+# txt = "The best things in life are free!"
+# print("free" in txt)
+
+# txt = "The best things in life are free!"
+# if "free" in txt:
+#   print("Yes, 'free' is present.")
+
+# print(10 > 9)
+# print(10 == 9)
+# print(10 < 12)
+
+
+# a = 200
+# b = 33
+
+# if b > a:
+#   print("b is greater than a")
+# else:
+#   print("b is not greater than a")
+
+# print(bool("Hello"))
+# print(bool(15))
+
+# x = "Hello"
+# y = 15
+# print(bool(x))
+# print(bool(y))
+
+# print(bool("abc"))
+# print(bool(123))
+# print(bool(["apple", "cherry", "banana"]))
+
+# print(bool(False))
+# print(bool(None))
+# print(bool(0))
+# print(bool(""))
+# print(bool(()))
+# print(bool([]))
+# print(bool({}))
+
+# name = "Shruti"
+# print(f"Hi my name is: {name}")
+
+# var1 = input("Enter your name: ")
+# print("My name is: ", var1)
+
+# var1 = int(input("Enter the integer value: "))
+# print(var1)
+
+# var1 = float(input("Enter the float value: "))
+# print(var1)
+
+# for i in range(0, 101, 2):
+#     print(i)
+
+# """This is a
+# multi-line
+# comment"""
+
+# print("Hello\nWorld")
+# print('nitesh\tkhatri')
+# print('nitesh\\khatri')
+# print('nitesh\"khatri')
+# print('nitesh\"khatri')
+# print('nitesh\rkhatri')
+# print('nitesh\bkhatri')
+
+# my_list = [1, 2, 3, "hello"]
+# numbers_only = [x for x in my_list if isinstance(x,(int,float))]
+# print(numbers_only)
+
+# s = {1, 2, 3}
+# print(s)
+
+# print("Hello there!\nHow are you?\nI\'m doing fine.")
+# my_list = [1,2,3,4]
+# result = my_list.append(5)
+# print(result)
+
+
+# result = my_list.insert(1, "new")
+# print(my_list)
+
+# my_tuple = (1, 2, 3)
+# print(my_tuple.count(2))
+# print(my_tuple.index(3))
+
+# print(my_set = {1, 2, 3})
+# print(my_set.add(4))
+# print(my_set.remove(2))
+# print(my_set.union({5, 6}))
+
+# import math
+# print(math.sqrt(16))
+
+furniture = ['table', 'chair', 'rack', 'shelf']
+print(furniture)
