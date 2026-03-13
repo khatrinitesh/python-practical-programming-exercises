@@ -249,6 +249,107 @@ x = 10
 y = 20
 print(globals())
 
+# hasattr()	Returns True if the specified object has the specified attribute (property/method)
+class Person:
+    name='test'
+    age=24
+p = Person()
+print(hasattr(p,'name'))
+print(hasattr(p,'age'))
+print(hasattr(p,'city'))
+text = "Hello World"
+print(hasattr(text,'upper'))
+print(hasattr(text,'append'))
+
+class Car:
+    brand = 'toyota'
+car = Car()
+print(hasattr(car,'brand'))
+print(hasattr(car,'age'))
 
 
+num1 = 255
+num2 = 256
+num3 = 455
+num4 = -422
+print('hex1',hex(num1))
+print('hex2',hex(num2))
+print('hex3',hex(num3))
+print('hex4',hex(num4))
+
+# id()	Returns the id of an object
+x = 10
+y = 20
+value1 = 110
+value2 = [1,2,3,5,5]
+print(id(x))
+print(id(y))
+print(id(value1))
+print(id(value2))
+
+# input()	Allowing user input
+# name = input("Enter your name: ")
+# print('hello',name)
+# name2 = input('please type your name');
+# print('hieee',name2)
+# age = input('what is your age?')
+# print('your age is ',age)
+
+# num1 = int(input('enter first number: '))
+# num2 = int(input('enter second number: '))
+# sum = num1 + num2 
+# print("Sum = ",sum)
+
+
+# num3 = int(input('enter your first number: '))
+# num4 = int(input('enter your second number: '))
+# sum = num3 * num4
+# print('Sum = ',sum)
+
+# price = float(input("Enter price: "))
+# print(price)
+
+x = 10
+word = 'hello'
+print(isinstance(x,int))
+print(isinstance(x,str))
+print(isinstance(word,int))
+print(isinstance(word,str))
+print(isinstance(x,(int,float)))
+
+class Person:
+    pass 
+p = Person()
+print(isinstance(p,Person))
+
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+print(issubclass(Dog,Animal))
+
+class A:
+    pass
+
+class B:
+    pass
+print(issubclass(B,A))
+
+numberswise = [10,203,4,555]
+resultWise = iter(numberswise)
+print(next(resultWise))
+print(next(resultWise))
+print(next(resultWise))
+print(next(resultWise))
+
+numberWiseOne = [55,203,44,55,66,77,66868]
+it = iter(numberWiseOne)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
 
