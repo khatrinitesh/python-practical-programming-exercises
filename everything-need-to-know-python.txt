@@ -1,0 +1,89 @@
+🐍 30-Day Python Learning Plan (Beginner → Confident)
+📅 Week 1: Basics (Foundation Strong Karo)
+
+Goal: Understand syntax + basic logic
+
+Day 1
+Install Python
+Run your first program (print("Hello World"))
+Day 2
+Variables & Data Types (int, float, string, bool)
+Day 3
+Input & Output
+name = input("Enter name: ")
+print("Hello", name)
+Day 4
+Operators (+, -, *, /, %, ==, >, <)
+Day 5
+If-Else Conditions
+Day 6
+Nested Conditions + Practice
+Day 7
+Mini Practice Day
+👉 Build: Even/Odd checker + Simple calculator
+📅 Week 2: Logic Building (Important 🔥)
+
+Goal: Think like a programmer
+
+Day 8
+Loops (for loop)
+Day 9
+While loop
+Day 10
+Break, Continue
+Day 11
+Functions (def, return)
+Day 12
+Lists (very important)
+Day 13
+List operations + loops
+Day 14
+Mini Project
+👉 Build: Number guessing game
+📅 Week 3: Core Python Power
+
+Goal: Work with data structures
+
+Day 15
+Tuples & Sets
+Day 16
+Dictionaries (key-value data 🔥)
+Day 17
+String operations
+Day 18
+File Handling (read/write files)
+Day 19
+Error Handling (try-except)
+Day 20
+Practice Problems
+Day 21
+Mini Project
+👉 Build: To-Do List (CLI app)
+📅 Week 4: Real-World + Projects
+
+Goal: Start thinking like a developer
+
+Day 22
+Modules & Imports
+Day 23
+Install libraries using pip
+Day 24
+Intro to OOP (class, object)
+Day 25
+OOP continued (constructor, methods)
+Day 26
+Practice OOP
+Day 27
+Project Day
+👉 Build: Password Generator
+Day 28
+Project Day
+👉 Build: File Organizer (auto sort files)
+Day 29
+Practice + Revision
+Day 30 🎉
+Final Project
+👉 Build ONE:
+Calculator with functions
+CLI app
+Small automation script
