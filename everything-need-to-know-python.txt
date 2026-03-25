@@ -21,8 +21,8 @@ Nested Conditions + Practice
 Day 7
 Mini Practice Day
 👉 Build: Even/Odd checker + Simple calculator
-📅 Week 2: Logic Building (Important 🔥)
 
+📅 Week 2: Logic Building (Important 🔥)
 Goal: Think like a programmer
 
 Day 8
