@@ -662,123 +662,101 @@ import numpy as np
 # Day 12 Lists (very important) > sum of list 
 # numbers = [1,2,3,4]
 # total = 0
-# for num in numbers:
-#     total += num
-# print(total)
-# numbers = [1,2,3,4]
-# total = 0 
-# for num in numbers:
-#     total += num 
-# print(total)
-# numbers = [1,2,3,4]
-# total = 0
-# for num in numbers:
-#     total += num 
-# print(total)
-# Day 12 Lists (very important) > basic example manual sum
-# numbers = [10,20,30,40,50]
-# total = 0
-# for num in numbers:
-#     total += num 
-# print(total)
-# Day 12 Lists (very important) > using built in function 
-# numbers = [10,20,30,40,50]
-# total = sum(numbers)
-# print(total0)
-# Day 12 Lists (very important) > user input list 
-# numbers = []
-# n = int(input('how many numbers? '))
-# for i in range(n):
-#     num = int(input('enter number: '))
-#     numbers.append(num)
-# print("List:",i * numbers)
-# print("List:",sum(numbers))
-# numbers = []
-# n = int(input('how many numbers: '))
-# for i in range(n):
-#     num = int('enter number: ')
-#     numbers.append(num) 
-# print('List:',numbers)
-# print('Sum:',sum(numbers))
-# Day 12 Lists (very important) > sum of even numbers only 
-# numbers = [1,2,3,4,5,6]
-# total = 0
-# for num in numbers:
-#     if num % 2 == 0:
-#         total += num
-# print('Even sum',total)
-# Day 12 Lists (very important) > sum of odd numbers
-# numbers = [1,2,3,4,5,6]
-# total = 0
-# for num in numbers:
-#     if num % 2 != 0:
-#         total += num 
-# print('Odd sum',total)
-# Day 12 Lists (very important) > challenge practice
-# numbers = [10, 20, 30, 40]
-# total = sum(numbers)
-# print('sum',total)
-# average = total / len(numbers)
-# print(average)
-# Day 12 Lists (very important) > bonus challenge important for interviews
-# numbers = [10, 50, 20, 80, 30]
-# largest = numbers[0]
-# for num in numbers:
-#     if num > largest:
-#         largest = num 
-# print("Largest:",largest)
-# print('np max', np.max(numbers))
-# print('np min', np.min(numbers))
 
-# price = int(input('Enter price: '))
-# discount = int(input('how many discount: '))
-# final_price = price - price * discount / 100
-# print(final_price)
+# person = {
+#     "name": "Alice",
+#     "age": 25,
+#     "city": "New York"
+# }
+# print(person)
+# print(person["name"])
 
-# https://www.youtube.com/watch?v=iCwkuJOxvRI&list=PL3JNM3ENFH-5r3mRfuIbXLRCvtNK0FhmU
-# Rent calculator in python | Mini Python Project with source code
-# rent = int(input('enter your hostel/flat rent = '))
-# food = int(input('enter the amount of food ordered = '))
-# electricity_spend = int(input('enter the total of electricity spend = '))
-# charge_per_unit = int(input('enter the charge per unit = '))
-# persons = int(input('enter the number of persons living in room/flat = '))
-# total_bill = electricity_spend * charge_per_unit
-# print(total_bill)
-# output = (food + rent + total_bill) // persons 
-# print('each person will pay = ',output)
+# fruitwise = ['apple','mango','grape','watermelon']
+# [a,b,*c] = fruitwise
+# print(f"a",a)
+# print(f"b",b)
+# print(f"c",c)
 
-# Day 15 Tuples & Sets > 1. Basic Tuple Example
-# numbers = (10, 20, 30, 40)
-# print('Tuple',numbers)
-# print('First element:',numbers[0])
-# Day 15 Tuples & Sets > loop through tuple 
-# numbers = (5, 10, 15, 20)
-# for num in numbers:
-#     print(num)
-# Day 15 Tuples & Sets > count & index 
-# numbers = (10, 20, 30, 20, 40)
-# print('count of 20:',numbers.count(20))
-# print('Index of 30:',numbers.index(30))
-# Day 15 Tuples & Sets > tuple unpacking 
-data = (100,200,300)
-a,b,c = data 
-print(a)
-print(b)
-print(c)
-coordinates = (35,36,37)
-a,b,c= coordinates
-print(a)
-print(b)
-print(c)
-fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
-(green,yellow,*red) = fruits 
-print('green',{green})
-print('yellow',{yellow})
-print(f"Green: {green}")
-print(f"Yellow: {yellow}")
-print(f"Red: {red}")
-happywords = ('smile','happy','sad','angry')
-(a,b,*c) = happywords 
-print(f"smile",{a})
-print(f"happy",{b})
-print(f"otherwise",{c})
+#Day 16 Dictionaries (key-value data 🔥) > 1 creating a dictionary 
+# person = {
+#     'name':'test',
+#     'age':25,
+#     'city':'india'
+# }
+# print(person)
+# print(person['name'])
+
+
+#Day 16 Dictionaries (key-value data 🔥) > 2 adding and updating key-value pairs 
+# person['email']= 'xyz@gmail.com'
+# person['age'] = 26
+# person['mobileNum'] = 9145689745
+# print(person)
+#Day 16 Dictionaries (key-value data 🔥) > 3 removing items 
+# person.pop('city') #removes city 
+# print(person)
+# last_item = person.popitem()
+# print('removed:',last_item)
+#Day 16 Dictionaries (key-value data 🔥) > 4 iterating over a dictionary 
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+
+# for key in person:
+#     print(key,"->",person[key])
+# for key,value in person.items():
+#     print(f"{key} => {value}")
+#Day 16 Dictionaries (key-value data 🔥) > 5 check if key exists
+# if "name" in person: 
+#     print('Name exists',person["name"])
+# else:
+#     print('name not found')
+#Day 16 Dictionaries (key-value data 🔥) > 6 nested dictionaries (advanced)
+# students = {
+#     "101":{"name":"nitesh","score":90},
+#     "102":{"name":"sameet","score":91},
+# }
+# print(students['102']['score'])
+# print(students['102']['name'])
+# students['103'] = {'name':'charlie','score':92}
+# students['110'] = [{'name':'charlie1','score':85},{'name':'charlie1','score':87}]
+# print(students) 
+#Day 16 Dictionaries (key-value data 🔥) > 7 dictionary comprehension power 
+# numbers = [1,2,3,4,5]
+# squares = {n:n**2 for n in numbers}
+# print(squares)
+#Day 16 Dictionaries (key-value data 🔥) > 8 practice exercise your turn 
+# products = [
+#     ("Laptop", 1200),
+#     ("Mouse", 25),
+#     ("Keyboard", 75),
+#     ("Monitor", 300)
+# ]
+# print(products)
+# Day 17 string operations > 1 creating strings 
+# name = 'tests'
+# greeting = 'hello'
+# print(name,greeting)
+# Day 17 String operations > access characters & slicing
+# text = 'python'
+# print(text[0])
+# print(text[1])
+# print(text[0:4]) # start:end slice
+# print(text[-1])
+# print(text[::2]) #pto (every 2nd character) slice
+# Day 17 String operations > string length
+# msg = 'hello how are you'
+# print(len(msg))
+# Day 17 String operations > 1. convert to uppercase/lower/capitalize/title
+text = 'hello world'
+# print(text.upper())
+# print(text.lower())
+# print(text.capitalize())
+# print(text.title())
+# text2 = 'PyThOn'
+# print(text2.swapcase()) # swapcase
+# text3 = 'aLIce'
+# print('upper',text3.upper())
+
