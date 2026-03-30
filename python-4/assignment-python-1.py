@@ -1,4 +1,5 @@
 import numpy as np
+import math as m
 
 # basic variable practice
 # name = 'test'
@@ -750,7 +751,7 @@ person = {
 # msg = 'hello how are you'
 # print(len(msg))
 # Day 17 String operations > 1. convert to uppercase/lower/capitalize/title
-text = 'hello world'
+# text = 'hello world'
 # print(text.upper())
 # print(text.lower())
 # print(text.capitalize())
@@ -759,4 +760,112 @@ text = 'hello world'
 # print(text2.swapcase()) # swapcase
 # text3 = 'aLIce'
 # print('upper',text3.upper())
+# print(text)
+# Day 18 File Handling (read/write files) > 1 write to a file 
+# file = open('index.html','w')
+# file.write('<h1>Hello World</h1>')
+# file.write('<h1>Hello World</h1>')
+# file.close()
+# print('File written successfully')
 
+# file = open('index.html','r')
+# content = file.read()
+# print(content)
+# file.close()
+
+
+# price = int(input('enter a number:'))
+# discount = int(input('enter a discount:   '))
+# final_price = price - (price * discount / 100)
+# print('final price',final_price)
+
+# file = open('data.txt','w')
+# file.write('Hello, this is a test file 1.\n')
+# file.write('This file is used for demonstrating file handling in Python.\n')        
+# file.close()
+# print('File created and written successfully')
+
+# file = open('data.txt','r')
+# content = file.read()
+# file.close()
+# print(content)
+
+# file = open('example2.txt','w')
+# content = 'THis is a new file created for testing file handling in python.'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')
+
+# file = open('pawan_patel.txt','a')
+# file.write('\nPawan patel is working \nSenior backend developer')
+# file.close()
+
+# file = open('exampleee.txt','r')
+# content = file.read()
+# print(content)
+# file.close() 
+
+# file = open('assignment1.txt','w')
+# content = 'This is a sample file created for assignment 1. It contains some text data for testing file handling in Python.'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')  
+
+# file = open('assignment2.txt','w')
+# content = 'this is simple format in assignment 2 \n it is used to test file handling in python \n we are writing multiple lines in this file'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')  
+
+# file = open('assignment3.txt','w')
+# content = "This is assignment3 in assignment3.txt file \n we are writing multiple lines in this file \n to test file handling in python"
+# file.write(content)
+# file.close()
+# print('File created and written successfully')
+
+# file = open('assignment5.txt','w')
+# content = 'this is assignment5'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')
+
+# file = open('assignment6.txt','w')
+# content = 'this is assignment6 \n happy coding'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')
+
+# file = open('assignment7.txt','a')
+# for i in range(1,11):
+#      file.write(f"${i}\n")
+# file.write('\n this is new appened line. \n')
+# file.close()
+# print('File created and written successfully')
+
+# file = open('assignment9.txt','a')
+# for i in range(1,11):
+#     file.write(f"${i}\n")
+# file.write('this is assignment9 \n we are appending this line to the file \n to test file handling in python')
+# file.close()
+# print('File created and written successfully')
+
+
+# Day 18 File Handling (read/write files) > 4. best practice with open 
+# with open('assignment10.txt','w') as file:
+#     for line in file:   
+#         print(line.strip())
+
+# file = open('assignment11.txt','w')
+# for i in range(1,11):
+#     file.write(f'${i}\n')
+# content = 'this is assignment11'
+# file.write(content)
+# file.close()
+# print('File created and written successfully')
+
+
+print(m.sqrt(16))
+print(m.sqrt(25))
+print(m.sqrt(224))
+print(m.sqrt(1689))
+print(m.sqrt(166))
