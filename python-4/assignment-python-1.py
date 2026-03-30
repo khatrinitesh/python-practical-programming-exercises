@@ -864,8 +864,8 @@ person = {
 # print('File created and written successfully')
 
 
-print(m.sqrt(16))
-print(m.sqrt(25))
-print(m.sqrt(224))
-print(m.sqrt(1689))
-print(m.sqrt(166))
+# print(m.sqrt(16))
+# print(m.sqrt(25))
+# print(m.sqrt(224))
+# print(m.sqrt(1689))
+# print(m.sqrt(166))
