@@ -87,3 +87,33 @@ Final Project
 Calculator with functions
 CLI app
 Small automation script
+=======================================================================
+🚀 Python Roadmap (Beginner → Intermediate)
+1. Basics (Foundation)
+Variables & Data types (int, float, str, bool)
+Input/output
+Operators (+, -, *, /)
+Conditionals (if, elif, else)
+Loops (for, while)
+👉 Goal: Write simple programs
+2. Data Structures
+Lists
+Tuples
+Dictionaries
+Sets
+👉 Goal: Store and manipulate data
+3. Functions
+Defining functions
+Parameters & return values
+Lambda functions
+👉 Goal: Write reusable code
+4. Intermediate Concepts
+List comprehensions
+File handling
+Exception handling (try-except)
+Modules & libraries
+5. Practice + Mini Projects
+Calculator
+To-do list
+Number guessing game
+Simple chatbot
