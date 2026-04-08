@@ -1,0 +1,3 @@
+This is assignment3 in assignment3.txt file 
+ we are writing multiple lines in this file 
+ to test file handling in python

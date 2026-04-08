@@ -1,0 +1,1 @@
+This is a sample file created for assignment 1. It contains some text data for testing file handling in Python.
