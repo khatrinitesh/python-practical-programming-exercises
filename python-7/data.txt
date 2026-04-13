@@ -1,0 +1,2 @@
+hello this is an example of file handling in python 
+this is the second line of the file  
