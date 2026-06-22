@@ -1,2 +1,0 @@
-Hello, this is a test file.
-This file is used for demonstrating file handling in Python.

@@ -1,3 +1,0 @@
-this is simple format in assignment 2 
- it is used to test file handling in python 
- we are writing multiple lines in this file

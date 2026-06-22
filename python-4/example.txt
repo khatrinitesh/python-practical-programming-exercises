@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-hihi how are you?hi how are you?hi how are you?hi how are you?hi how are you?hi how are you?hi how are you sam?hi how are you sam?hi how are you sam?hi how are you sam?
-=======
-This is an example file.
->>>>>>> f8b50a27786ff35932659f55d6f89531e858aa3b
