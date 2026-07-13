@@ -1,4 +1,106 @@
+30-Day Python Assignment Plan
+=========================
+Week 1 — Basics
+Day 1: Introduction and Setup
+Install Python and VS Code. Create a program that prints your name, city, and learning goal.
+
+Day 2: Variables and Data Types
+Store your name, age, height, and whether you are a student. Print each value with its data type.
+
+Day 3: Input and Output
+Create a program that asks for the user’s name and birth year, then displays their approximate age.
+
+Day 4: Strings and Operators
+Ask the user for their first and last name. Display the full name in uppercase, lowercase, and title case.
+
+Day 5: If-Else Conditions
+Create a marks checker that displays:
+
+90+: Excellent
+75–89: Very Good
+50–74: Pass
+Below 50: Fail
+Day 6: Logical Practice
+Create a program that checks whether a number is positive, negative, or zero, and whether it is odd or even.
+
+Day 7: Revision and Practice
+Build a simple eligibility checker based on age, nationality, and required documents.
+
+Week 2 — Logic Building
+Day 8: For Loop
+Print the multiplication table of a number entered by the user.
+
+Day 9: While Loop
+Create a countdown program from 10 to 1, followed by “Time’s up!”
+
+Day 10: Functions — Part 1
+Write separate functions for addition, subtraction, multiplication, and division.
+
+Day 11: Functions — Part 2
+Create a function that accepts a list of numbers and returns the highest, lowest, and average values.
+
+Day 12: Lists
+Build a shopping-list program where users can add, view, and remove items.
+
+Day 13: Dictionaries
+Create a student record containing name, roll number, marks, course, and attendance.
+
+Day 14: Mini Project — Calculator
+Build a menu-driven calculator supporting addition, subtraction, multiplication, division, and percentage.
+
+Week 3 — Real-World Skills
+Day 15: File Handling
+Create a text file, write five notes into it, and display all saved notes.
+
+Day 16: File Automation
+Write a program that counts the number of words and lines in a text file.
+
+Day 17: Automation Basics
+Create a script that automatically creates folders named Images, Documents, Videos, and Others.
+
+Day 18: Folder/File Organizer
+Organize files from one folder into subfolders based on their extensions.
+
+Day 19: CSV and Excel Data
+Create a CSV file containing employee names, departments, and salaries. Read and display the data using Python.
+
+Day 20: Data Processing
+Calculate the total salary, average salary, highest salary, and lowest salary from the employee CSV.
+
+Day 21: Mini Project — Auto Report
+Generate an employee summary report and save the results in a new text or CSV file.
+
+Week 4 — Practical Work and Projects
+Day 22: Web Scraping Basics
+Extract webpage headings and links from a practice website using requests and BeautifulSoup.
+
+Day 23: Advanced Scraping
+Scrape product names and prices from a permitted practice website and save them in a CSV file.
+
+Day 24: API Basics
+Fetch data from a free public API and display selected fields in a readable format.
+
+Day 25: API Practice
+Create a command-line application that searches and displays information from a public API.
+
+Day 26: Automation Tool Project
+Build one automation tool, such as a bulk file renamer, duplicate-file finder, or text-file merger.
+
+Day 27: Improve the Tool
+Add validation, exception handling, user-friendly messages, and proper folder selection.
+
+Day 28: Project Finalization
+Test the project with different inputs, fix errors, and add comments and documentation.
+
+Day 29: Portfolio Project
+Create one complete Python project with a clear folder structure, README.md, screenshots, and setup instructions.
+
+Day 30: Final Review and Next Plan
+Revise all concepts and solve five mixed Python problems. Prepare a list of topics to learn next, such as OOP, Flask, Django, FastAPI, Pandas, or Data Science.
+
+
 🐍 30-Day Python Learning Plan (Beginner → Confident)
+=============================================
 📅 Week 1: Basics (Foundation Strong Karo)
 
 Goal: Understand syntax + basic logic
