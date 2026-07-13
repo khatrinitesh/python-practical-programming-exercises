@@ -102,3 +102,19 @@
 # else:
 #     print('the number is odd')
 
+# Day 7: Revision and Practice Build a simple eligibility checker based on age, nationality, and required documents.
+print('eligibility checker')
+age = int(input('what is your age'))
+nationality = input('enter your nationality: ').strip().lower()
+has_documents = input('do you have all required documents? (yes/no): ').strip().lower()
+if age >= 18 and nationality == 'indian' and has_documents == 'yes':
+    print('you are eligible')
+else:
+    print('you are not eligible')
+
+    if age < 18:
+        print('- you must be at least 18 years old')
+    if nationality != 'india':
+        print('- indian nationality is required.')
+    if has_documents != 'yes':
+        print('- all required documents are necessary.')
