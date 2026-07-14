@@ -1,0 +1,5 @@
+Complete the Python assignment.
+Practice file handling.
+Read about functions.
+Review dictionaries.
+Prepare for tomorrow's class.
